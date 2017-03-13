@@ -188,7 +188,7 @@ bookData.forEach(function(obj){
 			
 			let bookImage = $('<img>').attr("src", book.image_url);
 			if (book.image_url === "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png") {
-				bookImage = $('<img>').attr("src", "../../Assets/cover-img.png");
+				bookImage = $('<img>').attr("src", "Assets/cover-img.png");
 			}
 
 			// Make add to collection button appear with value of book title, we an call later
